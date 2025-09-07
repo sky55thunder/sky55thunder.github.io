@@ -1,0 +1,71 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+/* Logo Styling */
+.logo {
+    width: 120px;
+    margin-top: 10px;
+}
+
+/* Header Section */
+header {
+    padding: 20px;
+}
+
+/* Spotify Section */
+#spotify {
+    background: url('https://images.unsplash.com/photo-1508780709619-79562169bc64') no-repeat center center/cover;
+    padding: 30px;
+    background-attachment: scroll;
+    border-radius: 10px;
+}
+
+/* Game Section */
+#game {
+    background: url('https://images.unsplash.com/photo-1503264116251-35a269479413') no-repeat center center/cover;
+    padding: 30px;
+    background-attachment: fixed;
+    border-radius: 10px;
+}
+
+/* Spotify Input */
+#spotify-link {
+    width: 60%;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Spotify Button */
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background: #1db954;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #1ed760;
+}
+
+/* Spotify & Game Frames */
+iframe {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
